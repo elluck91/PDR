@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <kml xmlns="http://earth.google.com/kml/2.0">  
+ <Document> 
+<Style id="red"><IconStyle><color>ff0000ff</color><scale>.75</scale></IconStyle></Style> 
+<Style id="blue"><IconStyle><color>ffff0000</color><scale>.75</scale></IconStyle></Style> 
+<Style id="green"><IconStyle><color>ff00ff00</color><scale>.75</scale></IconStyle></Style> 
+<Style id="RedHalfOpLine"><LineStyle><color>7f0000ff</color><width>4</width><gx:labelVisibility>0</gx:labelVisibility></LineStyle></Style> 
+<Style id="LineHalfOpLine"><LineStyle><color>50F0FF14</color><width>2</width><gx:labelVisibility>0</gx:labelVisibility></LineStyle></Style> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:01Z</begin> 
+<end>2015-09-19T08:00:02Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 1 </description><Point><coordinates> 9.034368, 45.470993, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:02Z</begin> 
+<end>2015-09-19T08:00:03Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 2 </description><Point><coordinates> 9.034400, 45.470998, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:03Z</begin> 
+<end>2015-09-19T08:00:04Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 3 </description><Point><coordinates> 9.034390, 45.470999, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:04Z</begin> 
+<end>2015-09-19T08:00:05Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 4 </description><Point><coordinates> 9.034403, 45.470999, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:05Z</begin> 
+<end>2015-09-19T08:00:06Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 5 </description><Point><coordinates> 9.034415, 45.470999, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:06Z</begin> 
+<end>2015-09-19T08:00:07Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 6 </description><Point><coordinates> 9.034410, 45.470999, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:07Z</begin> 
+<end>2015-09-19T08:00:08Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 7 </description><Point><coordinates> 9.034399, 45.471002, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:08Z</begin> 
+<end>2015-09-19T08:00:09Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 8 </description><Point><coordinates> 9.034396, 45.471001, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:09Z</begin> 
+<end>2015-09-19T08:00:10Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 9 </description><Point><coordinates> 9.034387, 45.470996, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:10Z</begin> 
+<end>2015-09-19T08:00:11Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 10 </description><Point><coordinates> 9.034383, 45.470991, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:11Z</begin> 
+<end>2015-09-19T08:00:12Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 11 </description><Point><coordinates> 9.034381, 45.470986, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:12Z</begin> 
+<end>2015-09-19T08:00:13Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 12 </description><Point><coordinates> 9.034376, 45.470980, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:13Z</begin> 
+<end>2015-09-19T08:00:14Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 13 </description><Point><coordinates> 9.034365, 45.470970, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:14Z</begin> 
+<end>2015-09-19T08:00:15Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 14 </description><Point><coordinates> 9.034354, 45.470960, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:15Z</begin> 
+<end>2015-09-19T08:00:16Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 15 </description><Point><coordinates> 9.034340, 45.470948, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:16Z</begin> 
+<end>2015-09-19T08:00:17Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 16 </description><Point><coordinates> 9.034331, 45.470942, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:17Z</begin> 
+<end>2015-09-19T08:00:18Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 17 </description><Point><coordinates> 9.034387, 45.470894, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:18Z</begin> 
+<end>2015-09-19T08:00:19Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 18 </description><Point><coordinates> 9.034432, 45.470880, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:19Z</begin> 
+<end>2015-09-19T08:00:20Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 19 </description><Point><coordinates> 9.034471, 45.470851, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:20Z</begin> 
+<end>2015-09-19T08:00:21Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 20 </description><Point><coordinates> 9.034514, 45.470835, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:21Z</begin> 
+<end>2015-09-19T08:00:22Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 21 </description><Point><coordinates> 9.034521, 45.470828, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:22Z</begin> 
+<end>2015-09-19T08:00:23Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 22 </description><Point><coordinates> 9.034536, 45.470819, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:23Z</begin> 
+<end>2015-09-19T08:00:24Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 23 </description><Point><coordinates> 9.034583, 45.470800, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:24Z</begin> 
+<end>2015-09-19T08:00:25Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 24 </description><Point><coordinates> 9.034578, 45.470795, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:25Z</begin> 
+<end>2015-09-19T08:00:26Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 25 </description><Point><coordinates> 9.034601, 45.470794, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:26Z</begin> 
+<end>2015-09-19T08:00:27Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 26 </description><Point><coordinates> 9.034645, 45.470786, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:27Z</begin> 
+<end>2015-09-19T08:00:28Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 27 </description><Point><coordinates> 9.034662, 45.470786, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:28Z</begin> 
+<end>2015-09-19T08:00:29Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 28 </description><Point><coordinates> 9.034679, 45.470789, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:29Z</begin> 
+<end>2015-09-19T08:00:30Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 29 </description><Point><coordinates> 9.034703, 45.470790, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:30Z</begin> 
+<end>2015-09-19T08:00:31Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 30 </description><Point><coordinates> 9.034723, 45.470791, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:31Z</begin> 
+<end>2015-09-19T08:00:32Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 31 </description><Point><coordinates> 9.034738, 45.470788, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:32Z</begin> 
+<end>2015-09-19T08:00:33Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 32 </description><Point><coordinates> 9.034749, 45.470781, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:33Z</begin> 
+<end>2015-09-19T08:00:34Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 33 </description><Point><coordinates> 9.034757, 45.470769, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:34Z</begin> 
+<end>2015-09-19T08:00:35Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 34 </description><Point><coordinates> 9.034761, 45.470755, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:35Z</begin> 
+<end>2015-09-19T08:00:36Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 35 </description><Point><coordinates> 9.034763, 45.470740, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:36Z</begin> 
+<end>2015-09-19T08:00:37Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 36 </description><Point><coordinates> 9.034763, 45.470724, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:37Z</begin> 
+<end>2015-09-19T08:00:38Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 37 </description><Point><coordinates> 9.034764, 45.470706, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:38Z</begin> 
+<end>2015-09-19T08:00:39Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 38 </description><Point><coordinates> 9.034762, 45.470690, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:39Z</begin> 
+<end>2015-09-19T08:00:40Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 39 </description><Point><coordinates> 9.034756, 45.470678, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:40Z</begin> 
+<end>2015-09-19T08:00:41Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 40 </description><Point><coordinates> 9.034748, 45.470668, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:41Z</begin> 
+<end>2015-09-19T08:00:42Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 41 </description><Point><coordinates> 9.034746, 45.470662, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:42Z</begin> 
+<end>2015-09-19T08:00:43Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 42 </description><Point><coordinates> 9.034746, 45.470659, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:43Z</begin> 
+<end>2015-09-19T08:00:44Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 43 </description><Point><coordinates> 9.034739, 45.470644, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:44Z</begin> 
+<end>2015-09-19T08:00:45Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 44 </description><Point><coordinates> 9.034734, 45.470632, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:45Z</begin> 
+<end>2015-09-19T08:00:46Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 45 </description><Point><coordinates> 9.034731, 45.470626, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:46Z</begin> 
+<end>2015-09-19T08:00:47Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 46 </description><Point><coordinates> 9.034731, 45.470621, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:47Z</begin> 
+<end>2015-09-19T08:00:48Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 47 </description><Point><coordinates> 9.034734, 45.470617, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:48Z</begin> 
+<end>2015-09-19T08:00:49Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 48 </description><Point><coordinates> 9.034735, 45.470612, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:49Z</begin> 
+<end>2015-09-19T08:00:50Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 49 </description><Point><coordinates> 9.034736, 45.470607, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:50Z</begin> 
+<end>2015-09-19T08:00:51Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 50 </description><Point><coordinates> 9.034736, 45.470605, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:51Z</begin> 
+<end>2015-09-19T08:00:52Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 51 </description><Point><coordinates> 9.034737, 45.470604, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:52Z</begin> 
+<end>2015-09-19T08:00:53Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 52 </description><Point><coordinates> 9.034737, 45.470602, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:53Z</begin> 
+<end>2015-09-19T08:00:54Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 53 </description><Point><coordinates> 9.034737, 45.470600, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:54Z</begin> 
+<end>2015-09-19T08:00:55Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 54 </description><Point><coordinates> 9.034737, 45.470597, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:55Z</begin> 
+<end>2015-09-19T08:00:56Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 55 </description><Point><coordinates> 9.034737, 45.470595, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:56Z</begin> 
+<end>2015-09-19T08:00:57Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 56 </description><Point><coordinates> 9.034745, 45.470583, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:57Z</begin> 
+<end>2015-09-19T08:00:58Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 57 </description><Point><coordinates> 9.034755, 45.470569, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:58Z</begin> 
+<end>2015-09-19T08:00:59Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 58 </description><Point><coordinates> 9.034760, 45.470552, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:00:59Z</begin> 
+<end>2015-09-19T08:01:00Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 59 </description><Point><coordinates> 9.034764, 45.470535, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:00Z</begin> 
+<end>2015-09-19T08:01:01Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 60 </description><Point><coordinates> 9.034768, 45.470516, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:01Z</begin> 
+<end>2015-09-19T08:01:02Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 61 </description><Point><coordinates> 9.034772, 45.470496, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:02Z</begin> 
+<end>2015-09-19T08:01:03Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 62 </description><Point><coordinates> 9.034775, 45.470478, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:03Z</begin> 
+<end>2015-09-19T08:01:04Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 63 </description><Point><coordinates> 9.034777, 45.470462, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:04Z</begin> 
+<end>2015-09-19T08:01:05Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 64 </description><Point><coordinates> 9.034780, 45.470445, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:05Z</begin> 
+<end>2015-09-19T08:01:06Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 65 </description><Point><coordinates> 9.034783, 45.470428, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:06Z</begin> 
+<end>2015-09-19T08:01:07Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 66 </description><Point><coordinates> 9.034782, 45.470412, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:07Z</begin> 
+<end>2015-09-19T08:01:08Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 67 </description><Point><coordinates> 9.034779, 45.470397, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:08Z</begin> 
+<end>2015-09-19T08:01:09Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 68 </description><Point><coordinates> 9.034778, 45.470380, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:09Z</begin> 
+<end>2015-09-19T08:01:10Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 69 </description><Point><coordinates> 9.034774, 45.470363, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:10Z</begin> 
+<end>2015-09-19T08:01:11Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 70 </description><Point><coordinates> 9.034774, 45.470344, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:11Z</begin> 
+<end>2015-09-19T08:01:12Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 71 </description><Point><coordinates> 9.034777, 45.470328, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:12Z</begin> 
+<end>2015-09-19T08:01:13Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 72 </description><Point><coordinates> 9.034781, 45.470314, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:13Z</begin> 
+<end>2015-09-19T08:01:14Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 73 </description><Point><coordinates> 9.034786, 45.470298, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:14Z</begin> 
+<end>2015-09-19T08:01:15Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 74 </description><Point><coordinates> 9.034790, 45.470284, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:15Z</begin> 
+<end>2015-09-19T08:01:16Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 75 </description><Point><coordinates> 9.034797, 45.470270, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:16Z</begin> 
+<end>2015-09-19T08:01:17Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 76 </description><Point><coordinates> 9.034801, 45.470257, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:17Z</begin> 
+<end>2015-09-19T08:01:18Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 77 </description><Point><coordinates> 9.034807, 45.470244, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:18Z</begin> 
+<end>2015-09-19T08:01:19Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 78 </description><Point><coordinates> 9.034815, 45.470230, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:19Z</begin> 
+<end>2015-09-19T08:01:20Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 79 </description><Point><coordinates> 9.034825, 45.470217, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:20Z</begin> 
+<end>2015-09-19T08:01:21Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 80 </description><Point><coordinates> 9.034833, 45.470205, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:21Z</begin> 
+<end>2015-09-19T08:01:22Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 81 </description><Point><coordinates> 9.034841, 45.470191, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:22Z</begin> 
+<end>2015-09-19T08:01:23Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 82 </description><Point><coordinates> 9.034850, 45.470176, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:23Z</begin> 
+<end>2015-09-19T08:01:24Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 83 </description><Point><coordinates> 9.034863, 45.470162, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:24Z</begin> 
+<end>2015-09-19T08:01:25Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 84 </description><Point><coordinates> 9.034875, 45.470148, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:25Z</begin> 
+<end>2015-09-19T08:01:26Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 85 </description><Point><coordinates> 9.034888, 45.470135, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:26Z</begin> 
+<end>2015-09-19T08:01:27Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 86 </description><Point><coordinates> 9.034900, 45.470121, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:27Z</begin> 
+<end>2015-09-19T08:01:28Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 87 </description><Point><coordinates> 9.034915, 45.470107, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:28Z</begin> 
+<end>2015-09-19T08:01:29Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 88 </description><Point><coordinates> 9.034927, 45.470093, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:29Z</begin> 
+<end>2015-09-19T08:01:30Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 89 </description><Point><coordinates> 9.034935, 45.470078, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:30Z</begin> 
+<end>2015-09-19T08:01:31Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 90 </description><Point><coordinates> 9.034944, 45.470066, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:31Z</begin> 
+<end>2015-09-19T08:01:32Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 91 </description><Point><coordinates> 9.034951, 45.470055, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:32Z</begin> 
+<end>2015-09-19T08:01:33Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 92 </description><Point><coordinates> 9.034955, 45.470051, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:33Z</begin> 
+<end>2015-09-19T08:01:34Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 93 </description><Point><coordinates> 9.034956, 45.470048, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:34Z</begin> 
+<end>2015-09-19T08:01:35Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 94 </description><Point><coordinates> 9.034952, 45.470044, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:35Z</begin> 
+<end>2015-09-19T08:01:36Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 95 </description><Point><coordinates> 9.034940, 45.470040, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:36Z</begin> 
+<end>2015-09-19T08:01:37Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 96 </description><Point><coordinates> 9.034924, 45.470037, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:37Z</begin> 
+<end>2015-09-19T08:01:38Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 97 </description><Point><coordinates> 9.034912, 45.470034, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:38Z</begin> 
+<end>2015-09-19T08:01:39Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 98 </description><Point><coordinates> 9.034903, 45.470033, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:39Z</begin> 
+<end>2015-09-19T08:01:40Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 99 </description><Point><coordinates> 9.034890, 45.470032, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:40Z</begin> 
+<end>2015-09-19T08:01:41Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 100 </description><Point><coordinates> 9.034872, 45.470033, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:41Z</begin> 
+<end>2015-09-19T08:01:42Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 101 </description><Point><coordinates> 9.034852, 45.470034, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:42Z</begin> 
+<end>2015-09-19T08:01:43Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 102 </description><Point><coordinates> 9.034833, 45.470037, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:43Z</begin> 
+<end>2015-09-19T08:01:44Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 103 </description><Point><coordinates> 9.034816, 45.470038, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:44Z</begin> 
+<end>2015-09-19T08:01:45Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 104 </description><Point><coordinates> 9.034795, 45.470038, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:45Z</begin> 
+<end>2015-09-19T08:01:46Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 105 </description><Point><coordinates> 9.034774, 45.470036, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:46Z</begin> 
+<end>2015-09-19T08:01:47Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 106 </description><Point><coordinates> 9.034754, 45.470036, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:47Z</begin> 
+<end>2015-09-19T08:01:48Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 107 </description><Point><coordinates> 9.034733, 45.470038, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:48Z</begin> 
+<end>2015-09-19T08:01:49Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 108 </description><Point><coordinates> 9.034711, 45.470037, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:49Z</begin> 
+<end>2015-09-19T08:01:50Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 109 </description><Point><coordinates> 9.034691, 45.470039, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:50Z</begin> 
+<end>2015-09-19T08:01:51Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 110 </description><Point><coordinates> 9.034674, 45.470043, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:51Z</begin> 
+<end>2015-09-19T08:01:52Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 111 </description><Point><coordinates> 9.034654, 45.470047, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:52Z</begin> 
+<end>2015-09-19T08:01:53Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 112 </description><Point><coordinates> 9.034637, 45.470053, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:53Z</begin> 
+<end>2015-09-19T08:01:54Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 113 </description><Point><coordinates> 9.034620, 45.470056, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:54Z</begin> 
+<end>2015-09-19T08:01:55Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 114 </description><Point><coordinates> 9.034606, 45.470059, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:55Z</begin> 
+<end>2015-09-19T08:01:56Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 115 </description><Point><coordinates> 9.034595, 45.470063, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:56Z</begin> 
+<end>2015-09-19T08:01:57Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 116 </description><Point><coordinates> 9.034581, 45.470063, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:57Z</begin> 
+<end>2015-09-19T08:01:58Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 117 </description><Point><coordinates> 9.034564, 45.470060, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:58Z</begin> 
+<end>2015-09-19T08:01:59Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 118 </description><Point><coordinates> 9.034548, 45.470058, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:01:59Z</begin> 
+<end>2015-09-19T08:02:00Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 119 </description><Point><coordinates> 9.034531, 45.470054, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:00Z</begin> 
+<end>2015-09-19T08:02:01Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 120 </description><Point><coordinates> 9.034515, 45.470049, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:01Z</begin> 
+<end>2015-09-19T08:02:02Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 121 </description><Point><coordinates> 9.034499, 45.470041, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:02Z</begin> 
+<end>2015-09-19T08:02:03Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 122 </description><Point><coordinates> 9.034483, 45.470033, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:03Z</begin> 
+<end>2015-09-19T08:02:04Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 123 </description><Point><coordinates> 9.034470, 45.470025, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:04Z</begin> 
+<end>2015-09-19T08:02:05Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 124 </description><Point><coordinates> 9.034455, 45.470019, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:05Z</begin> 
+<end>2015-09-19T08:02:06Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 125 </description><Point><coordinates> 9.034438, 45.470012, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:06Z</begin> 
+<end>2015-09-19T08:02:07Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 126 </description><Point><coordinates> 9.034424, 45.470004, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:07Z</begin> 
+<end>2015-09-19T08:02:08Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 127 </description><Point><coordinates> 9.034411, 45.469996, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:08Z</begin> 
+<end>2015-09-19T08:02:09Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 128 </description><Point><coordinates> 9.034399, 45.469988, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:09Z</begin> 
+<end>2015-09-19T08:02:10Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 129 </description><Point><coordinates> 9.034384, 45.469978, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:10Z</begin> 
+<end>2015-09-19T08:02:11Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 130 </description><Point><coordinates> 9.034365, 45.469967, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:11Z</begin> 
+<end>2015-09-19T08:02:12Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 131 </description><Point><coordinates> 9.034346, 45.469956, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:12Z</begin> 
+<end>2015-09-19T08:02:13Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 132 </description><Point><coordinates> 9.034323, 45.469945, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:13Z</begin> 
+<end>2015-09-19T08:02:14Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 133 </description><Point><coordinates> 9.034302, 45.469939, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:14Z</begin> 
+<end>2015-09-19T08:02:15Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 134 </description><Point><coordinates> 9.034283, 45.469935, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:15Z</begin> 
+<end>2015-09-19T08:02:16Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 135 </description><Point><coordinates> 9.034262, 45.469931, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:16Z</begin> 
+<end>2015-09-19T08:02:17Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 136 </description><Point><coordinates> 9.034244, 45.469927, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:17Z</begin> 
+<end>2015-09-19T08:02:18Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 137 </description><Point><coordinates> 9.034225, 45.469923, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:18Z</begin> 
+<end>2015-09-19T08:02:19Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 138 </description><Point><coordinates> 9.034208, 45.469917, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:19Z</begin> 
+<end>2015-09-19T08:02:20Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 139 </description><Point><coordinates> 9.034195, 45.469911, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:20Z</begin> 
+<end>2015-09-19T08:02:21Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 140 </description><Point><coordinates> 9.034184, 45.469905, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:21Z</begin> 
+<end>2015-09-19T08:02:22Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 141 </description><Point><coordinates> 9.034178, 45.469899, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:22Z</begin> 
+<end>2015-09-19T08:02:23Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 142 </description><Point><coordinates> 9.034181, 45.469887, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:23Z</begin> 
+<end>2015-09-19T08:02:24Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 143 </description><Point><coordinates> 9.034182, 45.469881, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:24Z</begin> 
+<end>2015-09-19T08:02:25Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 144 </description><Point><coordinates> 9.034178, 45.469876, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:25Z</begin> 
+<end>2015-09-19T08:02:26Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 145 </description><Point><coordinates> 9.034174, 45.469873, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:26Z</begin> 
+<end>2015-09-19T08:02:27Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 146 </description><Point><coordinates> 9.034172, 45.469871, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:27Z</begin> 
+<end>2015-09-19T08:02:28Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 147 </description><Point><coordinates> 9.034172, 45.469869, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:28Z</begin> 
+<end>2015-09-19T08:02:29Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 148 </description><Point><coordinates> 9.034171, 45.469869, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:29Z</begin> 
+<end>2015-09-19T08:02:30Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 149 </description><Point><coordinates> 9.034174, 45.469871, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:30Z</begin> 
+<end>2015-09-19T08:02:31Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 150 </description><Point><coordinates> 9.034176, 45.469871, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:31Z</begin> 
+<end>2015-09-19T08:02:32Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 151 </description><Point><coordinates> 9.034179, 45.469869, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:32Z</begin> 
+<end>2015-09-19T08:02:33Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 152 </description><Point><coordinates> 9.034182, 45.469868, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:33Z</begin> 
+<end>2015-09-19T08:02:34Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 153 </description><Point><coordinates> 9.034185, 45.469866, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+ <TimeSpan> 
+<begin>2015-09-19T08:02:34Z</begin> 
+<end>2015-09-19T08:02:35Z</end> 
+ </TimeSpan> 
+ <styleUrl>y</styleUrl>  <description>Epoch = 154 </description><Point><coordinates> 9.034188, 45.469864, 0 </coordinates></Point> 
+ </Placemark> 
+<Placemark> 
+<styleUrl>#RedHalfOpLine</styleUrl> 
+<LineString> 
+<extrude>1</extrude> 
+<tessellate>1</tessellate> 
+<coordinates>9.034368,45.470993,0 
+9.034400,45.470998,0 
+9.034390,45.470999,0 
+9.034403,45.470999,0 
+9.034415,45.470999,0 
+9.034410,45.470999,0 
+9.034399,45.471002,0 
+9.034396,45.471001,0 
+9.034387,45.470996,0 
+9.034383,45.470991,0 
+9.034381,45.470986,0 
+9.034376,45.470980,0 
+9.034365,45.470970,0 
+9.034354,45.470960,0 
+9.034340,45.470948,0 
+9.034331,45.470942,0 
+9.034387,45.470894,0 
+9.034432,45.470880,0 
+9.034471,45.470851,0 
+9.034514,45.470835,0 
+9.034521,45.470828,0 
+9.034536,45.470819,0 
+9.034583,45.470800,0 
+9.034578,45.470795,0 
+9.034601,45.470794,0 
+9.034645,45.470786,0 
+9.034662,45.470786,0 
+9.034679,45.470789,0 
+9.034703,45.470790,0 
+9.034723,45.470791,0 
+9.034738,45.470788,0 
+9.034749,45.470781,0 
+9.034757,45.470769,0 
+9.034761,45.470755,0 
+9.034763,45.470740,0 
+9.034763,45.470724,0 
+9.034764,45.470706,0 
+9.034762,45.470690,0 
+9.034756,45.470678,0 
+9.034748,45.470668,0 
+9.034746,45.470662,0 
+9.034746,45.470659,0 
+9.034739,45.470644,0 
+9.034734,45.470632,0 
+9.034731,45.470626,0 
+9.034731,45.470621,0 
+9.034734,45.470617,0 
+9.034735,45.470612,0 
+9.034736,45.470607,0 
+9.034736,45.470605,0 
+9.034737,45.470604,0 
+9.034737,45.470602,0 
+9.034737,45.470600,0 
+9.034737,45.470597,0 
+9.034737,45.470595,0 
+9.034745,45.470583,0 
+9.034755,45.470569,0 
+9.034760,45.470552,0 
+9.034764,45.470535,0 
+9.034768,45.470516,0 
+9.034772,45.470496,0 
+9.034775,45.470478,0 
+9.034777,45.470462,0 
+9.034780,45.470445,0 
+9.034783,45.470428,0 
+9.034782,45.470412,0 
+9.034779,45.470397,0 
+9.034778,45.470380,0 
+9.034774,45.470363,0 
+9.034774,45.470344,0 
+9.034777,45.470328,0 
+9.034781,45.470314,0 
+9.034786,45.470298,0 
+9.034790,45.470284,0 
+9.034797,45.470270,0 
+9.034801,45.470257,0 
+9.034807,45.470244,0 
+9.034815,45.470230,0 
+9.034825,45.470217,0 
+9.034833,45.470205,0 
+9.034841,45.470191,0 
+9.034850,45.470176,0 
+9.034863,45.470162,0 
+9.034875,45.470148,0 
+9.034888,45.470135,0 
+9.034900,45.470121,0 
+9.034915,45.470107,0 
+9.034927,45.470093,0 
+9.034935,45.470078,0 
+9.034944,45.470066,0 
+9.034951,45.470055,0 
+9.034955,45.470051,0 
+9.034956,45.470048,0 
+9.034952,45.470044,0 
+9.034940,45.470040,0 
+9.034924,45.470037,0 
+9.034912,45.470034,0 
+9.034903,45.470033,0 
+9.034890,45.470032,0 
+9.034872,45.470033,0 
+9.034852,45.470034,0 
+9.034833,45.470037,0 
+9.034816,45.470038,0 
+9.034795,45.470038,0 
+9.034774,45.470036,0 
+9.034754,45.470036,0 
+9.034733,45.470038,0 
+9.034711,45.470037,0 
+9.034691,45.470039,0 
+9.034674,45.470043,0 
+9.034654,45.470047,0 
+9.034637,45.470053,0 
+9.034620,45.470056,0 
+9.034606,45.470059,0 
+9.034595,45.470063,0 
+9.034581,45.470063,0 
+9.034564,45.470060,0 
+9.034548,45.470058,0 
+9.034531,45.470054,0 
+9.034515,45.470049,0 
+9.034499,45.470041,0 
+9.034483,45.470033,0 
+9.034470,45.470025,0 
+9.034455,45.470019,0 
+9.034438,45.470012,0 
+9.034424,45.470004,0 
+9.034411,45.469996,0 
+9.034399,45.469988,0 
+9.034384,45.469978,0 
+9.034365,45.469967,0 
+9.034346,45.469956,0 
+9.034323,45.469945,0 
+9.034302,45.469939,0 
+9.034283,45.469935,0 
+9.034262,45.469931,0 
+9.034244,45.469927,0 
+9.034225,45.469923,0 
+9.034208,45.469917,0 
+9.034195,45.469911,0 
+9.034184,45.469905,0 
+9.034178,45.469899,0 
+9.034181,45.469887,0 
+9.034182,45.469881,0 
+9.034178,45.469876,0 
+9.034174,45.469873,0 
+9.034172,45.469871,0 
+9.034172,45.469869,0 
+9.034171,45.469869,0 
+9.034174,45.469871,0 
+9.034176,45.469871,0 
+9.034179,45.469869,0 
+9.034182,45.469868,0 
+9.034185,45.469866,0 
+9.034188,45.469864,0 
+</coordinates> 
+</LineString> 
+</Placemark> 
+<styleUrl>red</styleUrl> <description>Trajectory</description>  </Document> 
+  </kml> 

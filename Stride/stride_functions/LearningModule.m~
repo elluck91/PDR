@@ -1,0 +1,111 @@
+function [ state ] = LearningModule(state, steps)
+
+currTime    = steps.time;
+dist_cm     = steps.dist_cm;
+Nsteps      = steps.Nsteps;
+
+% Define segments to be used to update the model
+segment_steps       = Nsteps   - state.CalRef.refStep;
+segment_time        = currTime - state.CalRef.refTime;
+segment_distance    = dist_cm  - state.CalRef.refDist_cm;
+
+% If Userid Is changing, Reset
+if  state.CalRef.UserID ~= state.userInfo.height_cm
+        state = resetCalstate(state);
+        state = resetLearningBuffer(state);
+        state.CalRef.UserID = state.userInfo.height_cm;
+end
+
+% If we're in conditions ready to update
+if state.model ~= 0
+    d_time = currTime - state.CalRef.LastValidTime;
+    d_step = Nsteps - state.CalRef.LastValidStep;
+    
+    step_freq = d_step/d_time;
+       
+    % Verifiy if are true the conditions to start the updating phase
+    flag_time = (d_time > 1 && d_time < 3);
+    flag_step = (d_step > 0);
+    
+    if (flag_time && flag_step)
+        % Reset on segment extraction only when GPS active
+        if (state.model == 1 && state.CalRef.f_elems > 15 && state.CalRef.meanFreq > 0.5 && ...
+                ((abs(step_freq/state.CalRef.meanFreq - 1) > 0.55 && abs(step_freq/state.CalRef.meanFreq - 1) < 0.75) || ...
+                (abs(step_freq/state.CalRef.meanFreq - 1) > 1.25))) && ~state.checkIfreset
+            state.checkIfreset = state.checkIfreset + 1;
+            return
+        elseif (state.model == 1 && state.CalRef.f_elems > 15 && state.CalRef.meanFreq > 0.5 && ...
+                ((abs(step_freq/state.CalRef.meanFreq - 1) > 0.55 && abs(step_freq/state.CalRef.meanFreq - 1) < 0.75) || ...
+                (abs(step_freq/state.CalRef.meanFreq - 1) > 1.25))) && state.checkIfreset == 5           
+            state = resetCalstate(state);
+            state.checkIfreset = 0;
+            return
+        end
+        
+        % update the elements of the CalRef structure       
+        if state.CalRef.f_elems > 1
+            meanFreq_old            = state.CalRef.meanFreq;
+            state.CalRef.meanFreq   = meanFreq_old + (1/state.CalRef.f_elems) * (step_freq - meanFreq_old);            
+          
+            state.CalRef.stepfreqSum    = state.CalRef.stepfreqSum + step_freq;
+            state.CalRef.stepfreq_2_Sum = state.CalRef.stepfreq_2_Sum + step_freq^2;
+                        
+            state.CalRef.stepStd = sqrt(1/(state.CalRef.f_elems - 1)*state.CalRef.stepfreq_2_Sum - (1/(state.CalRef.f_elems - 1)*state.CalRef.stepfreqSum)^2 );
+        else
+            state.CalRef.meanFreq  = step_freq;
+            state.CalRef.stepStd   = 0;
+        end
+        state.CalRef.f_elems        = state.CalRef.f_elems + 1;
+         
+        state.CalRef.LastValidTime  = currTime;
+        state.CalRef.LastValidStep  = Nsteps;
+        state.CalRef.LastDistance   = dist_cm;
+        
+        % Discrimine between walking and running on freq basis
+        if state.CalRef.meanFreq < strideLengthConsts.freqRun_Hz;
+            state.CalRef.Activity_curr = 1;
+        else
+            state.CalRef.Activity_curr = 2;
+        end
+    elseif d_time > 3.5  % if delta time is too long 
+        
+        state.CalRef.LastValidTime  = currTime;
+        state.CalRef.LastValidStep  = Nsteps;
+        state.CalRef.LastDistance   = dist_cm;
+        
+        state   = seg_collect(state, steps);
+        state   = resetCalstate(state);
+        
+        
+    end
+    
+    % If GPS 
+    if state.model ~= 2 && segment_steps > 20
+        % Define a length of segments of 70 steps and at least 20 second
+        if segment_steps < strideLengthConsts.seg_step_GPS || ...
+           segment_time < strideLengthConsts.seg_time_GPS  || ...
+           segment_distance < strideLengthConsts.seg_len_GPS %|| ...
+%            state.CalRef.stepStd > 0.65
+             return
+        else
+            % Once a segment is extracted, reset
+            state.CalRef.enable     = 1;
+            state.model             = 1;
+            
+            state.CalRef.LastValidTime  = currTime;
+            state.CalRef.LastValidStep  = Nsteps;
+            state.CalRef.LastDistance   = dist_cm;
+        end
+    end
+        
+end
+end
+
+
+function [ state ] = resetLearningBuffer(state)
+    state.strideCalInfo = emptyStrideCalInfo;
+end
+
+
+
+

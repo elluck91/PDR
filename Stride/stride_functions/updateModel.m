@@ -1,0 +1,124 @@
+function [ state ] = updateModel(state)
+
+if state.strideCalInfo.flag_buffer_upd   % If novel points are in the buffer
+    
+    stepFreq    = state.strideCalInfo.Nsteps(1:state.strideCalInfo.CalInfo_buffer)./state.strideCalInfo.dTime(1:state.strideCalInfo.CalInfo_buffer);
+    stepLength  = state.strideCalInfo.Dist_cm(1:state.strideCalInfo.CalInfo_buffer)./state.strideCalInfo.Nsteps(1:state.strideCalInfo.CalInfo_buffer);
+    activity    = state.strideCalInfo.step_type(1:state.strideCalInfo.CalInfo_buffer);
+    
+    gain_sl     = state.userInfo.height_cm/strideLengthConsts.defaultHeight_cm;
+    
+    ind_walk        = (activity == 1 | stepFreq < strideLengthConsts.freqRun_Hz);
+    walkStepFreq    = stepFreq(ind_walk ~= 0);
+    walkSteplength  = stepLength(ind_walk ~= 0);
+    flag_walk       = 0;
+    
+    if (state.manual_input.Nsteps/state.manual_input.Time) <= strideLengthConsts.freqRun_Hz  % If last point belongs to walking activity
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % Constant part updating
+        if length(walkStepFreq) < 3 && length(walkStepFreq) >= 1
+            % Just have a single point if the graph (freq - stepLength), could
+            % update the alpha (constant part) parameter, based on the distance of the calibration
+            % point from the model one --> we obtain a shift of the model
+            modeled_sl      = gain_sl*(state.walkModel.x2.*walkStepFreq.^2 + state.walkModel.x.*walkStepFreq + state.walkModel.x0)/100;
+            off_OnePoint    = (-modeled_sl + walkSteplength);
+            off_relative    = max(abs(off_OnePoint./modeled_sl))*100;
+            
+            if off_relative < strideLengthConsts.offOnePoint_thres(2) &&  off_relative > strideLengthConsts.offOnePoint_thres(1)
+                % Update the alpha (constant) coefficient
+                state.walkModel.x0 = state.walkModel.x0 + mean(off_OnePoint)*100*0.75; % added a small penalty to reduce oscillations
+            elseif off_relative < strideLengthConsts.offOnePoint_thres(1)
+                % No action
+            end
+        end
+        % Linear part updating
+        if length(walkStepFreq) == 3
+            flag_walk = 1;
+            % Could update the slope of the model
+            func_lin    = (walkSteplength - state.walkModel.x0)./walkStepFreq;
+            [p, res, RSS] = least_squares(walkStepFreq, func_lin, 1);
+            p(3)        = p(2);
+            p(2)        = p(1);
+            p(1)        = state.walkModel.x0;
+        end
+        % Global model recreating - want also a reasonable frequency span before
+        % recomputing the model
+        if length(walkStepFreq) > 3 && min(abs(diff(walkStepFreq))) >= 0.04 && abs(max(walkStepFreq) - min(walkStepFreq)) > 0.3
+            % Could compute the entire update model by using a quadratic fitting
+            % function
+            flag_walk = 1;
+            % Quadratic fitting
+            [ p, res, RSS]    = least_squares(walkStepFreq, walkSteplength*100, 2);      % NB: already included check on max range
+        end
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        
+        if flag_walk
+            
+            if RSS < 1 && max(abs(res)) < 1
+                state.walkModel.x0  = p(1);
+                state.walkModel.x   = p(2);
+                state.walkModel.x2  = p(3);
+            end
+        end
+        
+    else
+        ind_run        = (activity == 2 | stepFreq > strideLengthConsts.freqRun_Hz);
+        runStepFreq    = stepFreq(ind_run ~= 0);
+        runSteplength  = stepLength(ind_run ~= 0);
+        flag_run       = 0;
+        
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % Constant part updating
+        if length(runStepFreq) < 3 && length(runStepFreq) >= 1
+            % Just have a single point if the graph (freq - stepLength), could
+            % update the alpha (constant part) parameter, based on the distance of the calibration
+            % point from the model one --> we obtain a shift of the model
+            modeled_sl      = gain_sl*(state.runningModel.x2.*runStepFreq.^2 + state.runningModel.x.*runStepFreq + state.runningModel.x0)/100;
+            off_OnePoint    = (-modeled_sl + runSteplength);
+            off_relative    = max(abs(off_OnePoint./modeled_sl))*100;
+            
+            if off_relative < strideLengthConsts.offOnePoint_thres(2) &&  off_relative > strideLengthConsts.offOnePoint_thres(1)
+                % Update the alpha (constant) coefficient 
+                state.runningModel.x0 = state.runningModel.x0 + mean(off_OnePoint)*100*0.75;  % added a small penalty to reduce oscillations
+            elseif off_relative < strideLengthConsts.offOnePoint_thres(1)
+                % No action
+            end
+        end
+        % Linear part updating
+        if length(runStepFreq) == 3
+            flag_run = 1;
+            % Could update the slope of the model
+            func_lin    = (runSteplength - state.runningModel.x0)./runStepFreq;
+            
+            [p, res, RSS] = least_squares(runStepFreq, func_lin, 1);
+            p(3)        = p(2);
+            p(2)        = p(1);
+            p(1)        = state.runningModel.x0;
+        end
+        % Global model recreating
+        if length(runStepFreq) > 3 && min(abs(diff(runStepFreq))) >= 0.04 && abs(max(runStepFreq) - min(runStepFreq)) > 0.3
+            % Could compute the entire update model by using a quadratic fitting
+            % function
+            flag_run = 1;
+            % Quadratic fitting
+            [p, res, RSS]    = least_squares(runStepFreq, runSteplength*100, 2);
+        end
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        
+        if flag_run
+            
+            %     deviation   = checkForDev(p, flag_walk, flag_run);
+            
+            if  RSS < 1 && max(abs(res)) < 1
+                state.runningModel.x0  = p(1);
+                state.runningModel.x   = p(2);
+                state.runningModel.x2  = p(3);
+            end
+            
+        end
+    end
+    % At the end of model updating phase, set the new value for state.model
+    state.model = 3;    % Model calibrated
+    
+end
+end
